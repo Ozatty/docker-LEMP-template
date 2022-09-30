@@ -1,6 +1,6 @@
 # docker-LEMP-template
+nginx + php8.1-fpm + mysql 8.0 in docker container. 
 
-Docker yml file and Dockerfiles for develop LEMP.
 
 # develop enviloment
 php:8.1-fpm  
