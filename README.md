@@ -11,6 +11,7 @@ mysql:8.0
 # Usage
 1. copy .env.example and rename to .env
 2. write passwords in .env
-3. run below command  
+3. mkdir src
+4. run below command  
    docker compose build  
    docker compose up -d  
