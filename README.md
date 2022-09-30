@@ -18,7 +18,7 @@ git clone git@github.com:Ozatty/docker-LEMP-template.git
 cp .env.example .env
 ~~~
 3. write each password in .env
-4. make directory
+4. make src directory
 ~~~
    mkdir src
 ~~~
