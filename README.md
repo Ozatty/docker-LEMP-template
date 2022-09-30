@@ -9,13 +9,20 @@ nginx + php8.1-fpm + mysql 8.0 in docker container.
 
 
 # Usage
-1. copy .env.example and rename to .env
-2. write passwords in .env
-3. make directory
+1. git clone this code url
+~~~
+git clone git@github.com:Ozatty/docker-LEMP-template.git
+~~~
+2. copy .env.example and rename to .env
+~~~
+cp .env.example .env
+~~~
+3. write each password in .env
+4. make directory
 ~~~
    mkdir src
 ~~~
-4. run below command  
+5. run below command  
 ~~~
    docker compose build  
    docker compose up -d  
