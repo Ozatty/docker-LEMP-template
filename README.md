@@ -11,7 +11,7 @@ nginx + php8.1-fpm + mysql 8.0 in docker container.
 # Usage
 1. git clone this code url
 ~~~
-git clone git@github.com:Ozatty/docker-LEMP-template.git
+git clone https://github.com/Ozatty/docker-LEMP-template.git
 ~~~
 2. copy .env.example and rename to .env
 ~~~
